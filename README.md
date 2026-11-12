@@ -51,8 +51,7 @@ __002__fastapi/      FastAPI 服务 + React 前端页面
 __003__streamlit/    Streamlit 管理页
 __004__mcp/          MCP Server / Client
 common/              配置、LLM 封装、百度图片工具、路径与产物工具
-docs/                技术文档、演示说明
-__005__就业相关/      项目总结、难点与解决方案、简历项目介绍
+docs/                技术文档、难点与解决方案
 ```
 
 ## 快速开始
