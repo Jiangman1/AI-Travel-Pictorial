@@ -1,0 +1,25 @@
+# LangChain / LangGraph 系列互相锁定版本，这里只约束主版本区间，
+# 让 pip 自己挑选一组互相兼容的版本（全钉死会导致 ResolutionImpossible）。
+langchain>=1.0,<2
+langchain-core>=1.0,<2
+langchain-openai>=1.0,<2
+langchain-mcp-adapters>=0.2,<1
+langgraph>=1.0,<2
+langgraph-checkpoint>=2.0,<5
+langgraph-checkpoint-sqlite>=2.0
+
+# MCP
+mcp>=1.9,<2
+
+# Web / UI
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+streamlit>=1.40,<2
+pydantic>=2.10,<3
+
+# 工具
+playwright>=1.48,<2
+dashscope>=1.20,<2
+requests>=2.31,<3
+beautifulsoup4>=4.12,<5
+python-dotenv>=1.0,<2
